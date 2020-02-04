@@ -1,0 +1,11 @@
+.loader__text {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10%; /* align-items: center; */
+}
