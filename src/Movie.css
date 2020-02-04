@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+.movie {
+  margin: 18px;
+  border: 1px solid;
+}
+.movie__title,
+.movie__year,
+.movie__rating,
+.movie__genres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie__poster {
+  display: block;
+  margin: 0px auto;
+}
+.movie__summary {
+  text-align: center;
+}

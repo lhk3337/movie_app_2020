@@ -9,8 +9,7 @@ function Movie({ year, rating, title, summary, genres, poster }) {
       <h2 className="movie__year">Year : {year}</h2>
       <h2 className="movie__rating">Rating : {rating} / 10</h2>
       <h2 className="movie__genres">Genres : {genres} </h2>
-      <p className="movie_summarty"> {summary}</p>
-      <hr></hr>
+      <p className="movie__summary"> {summary}</p>
     </div>
   );
 }
